@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: pink;
+            background-image: url(YGg4.gif);
+        }
+
+        #texto {
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            color: aliceblue;
+            -webkit-text-stroke-width: 2.5px;
+            -webkit-text-stroke-color: black;
+            display: flex;
+            justify-content: center;
+            font-size: xxx-large;
+            margin-top: 10%;
+        }
+        #botoncito {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+    <script>
+        function playMusic() {
+            var music = new Audio('musica.mp3');
+            music.play();
+        }
+    </script>
+</head>
+
+<body>
+    <div id="texto">
+        <h1>FIONAAAAAAAAA</h1>
+    </div>
+    <h6 id="texto">Gracias por este semestre tan bonito :)</h6>
+    <div id="botoncito">
+        <input type="button" value="musiquita de festejo que encontré por ahí" onclick="playMusic()" />
+    </div>
+</body>
+
+</html>
